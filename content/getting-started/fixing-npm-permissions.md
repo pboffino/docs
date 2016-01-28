@@ -50,7 +50,7 @@ Instead, you can configure npm to use a different directory altogether. In our c
 
 1. Open or create a `~/.profile` file and add this line:
 
-        export PATH=~/.npm-global/bin:$PATH
+        export PATH=$HOME/.npm-global/bin:$PATH
 
 1. Back on the command line, update your system variables:
 
